@@ -4,7 +4,6 @@
 #    get_sv - gets solved matrix from user
 #    set_sv - sets solved matrix
 
-
 ## makeCacheMatrix: In this function either user can provide matrix or set matrix or inverse matrix.
 ##                  It stores the inversed(solved) matrix and lists all the functions used at last.
 
@@ -19,6 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
      get_sv <- function() m
      list(set = set, get = get, set_sv = set_sv, get_sv = get_sv)
 }
+
 
 ## cacheSolve: This function solves the matrix, if not already solved and displays result in end.
 
